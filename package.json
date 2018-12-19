@@ -1,0 +1,25 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "Frinder is a full-stack site that takes in results from user surveys and compares the answers with those from other users. The app then displays the name and picture of the user with the best overall match. It uses express for routing and is hosted using Heroku.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notFahad/FriendFinder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notFahad/FriendFinder"
+  },
+  "homepage": "https://github.com/notFahad/FriendFinder",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7"
+  }
+}
